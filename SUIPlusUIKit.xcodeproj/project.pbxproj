@@ -12,6 +12,7 @@
 		77F5953D2A500B09008B149D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F5953C2A500B09008B149D /* Assets.xcassets */; };
 		77F595402A500B09008B149D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F5953F2A500B09008B149D /* Preview Assets.xcassets */; };
 		77F595472A50142F008B149D /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F595462A50142F008B149D /* SliderView.swift */; };
+		77F595492A501FB5008B149D /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F595482A501FB5008B149D /* UISliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		77F5953C2A500B09008B149D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77F5953F2A500B09008B149D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77F595462A50142F008B149D /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		77F595482A501FB5008B149D /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				77F595382A500B09008B149D /* SUIPlusUIKitApp.swift */,
 				77F5953A2A500B09008B149D /* ContentView.swift */,
 				77F595462A50142F008B149D /* SliderView.swift */,
+				77F595482A501FB5008B149D /* UISliderRepresentation.swift */,
 				77F5953C2A500B09008B149D /* Assets.xcassets */,
 				77F5953E2A500B09008B149D /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				77F595472A50142F008B149D /* SliderView.swift in Sources */,
 				77F5953B2A500B09008B149D /* ContentView.swift in Sources */,
 				77F595392A500B09008B149D /* SUIPlusUIKitApp.swift in Sources */,
+				77F595492A501FB5008B149D /* UISliderRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
