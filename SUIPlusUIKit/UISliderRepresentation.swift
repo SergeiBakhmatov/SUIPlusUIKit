@@ -40,4 +40,20 @@ struct UISliderRepresentation: UIViewRepresentable {
     
 }
 
+extension UISliderRepresentation {
+    class Coordinator: NSObject {
+        
+        @Binding var value: Double
+        
+        init(value: Binding<Double>) {
+            self._value = value
+        }
+        
+        @objc func valueChanged(_ sender: UISlider) {
+            value = Double(sender.value)
+        }
+        
+    }
+}
+
 
