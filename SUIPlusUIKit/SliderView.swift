@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SliderView: View {
     
-    @ObservedObject var gameModel: GameModel()
+    @ObservedObject var gameModel = GameModel()
     
     var color: UIColor
     
@@ -34,8 +34,3 @@ struct SliderView: View {
     }
 }
 
-struct SliderView_Previews: PreviewProvider {
-    static var previews: some View {
-        SliderView()
-    }
-}
