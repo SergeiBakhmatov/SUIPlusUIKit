@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var gameModel = GameModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            SliderView(gameModel: gameModel, color: .red)
+            
+            Button("Проверь меня!", action: gameModel.showAlert)
+                .padding()
+                .alert(
+                    "Your Score",
+                    isPresented: $gameModel.alertIsPresented,
+                    actions: {}
+                ) {
+                    Text(gameModel.scores.formatted())
+                }
+            Button("Начать заново", action: gameModel.reset)
         }
-        .padding()
     }
 }
 
